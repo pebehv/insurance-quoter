@@ -63,20 +63,22 @@ const QuoteForm: React.FC<QuoteFormProps> = () => {
           </div>
         </div>
         
-        
-        <div className="form-check">
-          <input className="form-check-input" type="checkbox" value="" id="checkDefault" checked />
-          <label className="form-check-label" htmlFor="checkDefault">
-            Acepto lo Política de Privacidad
-          </label>
+        <div className='checks'>
+
+          <div className="form-check">
+            <input className="form-check-input" type="checkbox" value="" id="checkDefault" checked />
+            <label className="form-check-label" htmlFor="checkDefault">
+              Acepto lo Política de Privacidad
+            </label>
+          </div>
+          <div className="form-check">
+            <input className="form-check-input" type="checkbox" value="" id="checkChecked" checked />
+            <label className="form-check-label" htmlFor="checkChecked">
+              Checked checkbox
+            </label>
+          </div>
+          <p className='p'>Aplican Términos y Condiciones.</p>
         </div>
-        <div className="form-check">
-          <input className="form-check-input" type="checkbox" value="" id="checkChecked" checked />
-          <label className="form-check-label" htmlFor="checkChecked">
-            Checked checkbox
-          </label>
-        </div>
-        <p className='p'>Aplican Términos y Condiciones.</p>
         <button type="submit" className='button-rounded'>Cotiza aquí</button>
       </form>
     </div>
