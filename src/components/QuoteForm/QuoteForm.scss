@@ -1,0 +1,104 @@
+@import '../../styles/variables';
+
+
+
+.h5{
+  margin: 0px;
+  background: linear-gradient(86.01deg, #00F4E2 0%, #00FF7F 100%);
+  width: 172px;
+  height: 24px;
+  display: flex;
+  gap: 4px;
+  opacity: 1;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.quoter-section h5 {
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  vertical-align: middle;
+}
+.quoter-section h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+
+.quoter-section h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.p{
+  
+  font-family: 'BR Sonoma', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: 0px;
+  text-decoration-thickness: 1px; // 0% no es válido, usa px o em
+
+
+}
+
+
+.button-rounded {
+  width: 195px;
+  height: 64px;
+  display: flex;
+  gap: 8px;
+  opacity: 1;
+  padding: 20px 40px;
+  border-radius: 40px;
+  background-color: $color;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-align: center;
+
+}
+
+.quote-form__summary-box {
+  width: 351px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+
+
+.quote-form__input-box {
+  width: $input-width;
+  height: $input-height;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: $input-radius;
+  border: $input-border;
+}
+
+
+
+.quote-form__label {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  font-weight: $font-weight;
+  font-style: normal;
+  vertical-align: bottom;
+}

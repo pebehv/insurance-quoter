@@ -1,0 +1,51 @@
+
+@import '../../styles/variables';
+
+.banner-container{
+    font-family: $font-family;
+    color: $color;
+
+}
+.quote-section{
+    width: 1296px;
+    height: 640px;
+    display: flex;              /* Activa el flujo horizontal */
+    flex-direction: row;        /* Por defecto, pero se puede declarar explícitamente */
+    gap: 8px;                   /* Espacio entre elementos */
+    align-items: center;        /* Alineación vertical dentro del contenedor */
+    justify-content: flex-start; /* Alineación horizontal: izquierda, centro, derecha */
+}
+
+.img-main{
+  width: 600px;
+  height: 640px;
+  transform: rotate(0deg);
+  opacity: 1;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  padding-left: 120px;
+}
+
+.img {
+  width: 480px;
+  height: 560px;
+  display: flex;         // Necesario para que `gap` funcione
+  flex-direction: column;
+  gap: 10px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.quote-form__section {
+  width: 696px;
+  height: 628px;
+  display: flex;               // Necesario para que `gap` funcione
+  flex-direction: column;
+  gap: 24px;
+  transform: rotate(0deg);
+  opacity: 1;
+  padding-top: 32px;
+  padding-right: 216px;
+  padding-bottom: 80px;
+  padding-left: 128px;
+}
