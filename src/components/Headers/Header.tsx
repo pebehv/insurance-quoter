@@ -9,7 +9,7 @@ const Header = () => {
             <img src={logo} alt="" />
         </div>
         <div className='header-title'>
-            <p>
+            <p className='header-title-flex' >
               <span className='texto-header'>¡Compra por este medio!</span>  
               
               <img className='phone-icon' src={phone} alt="" /> 

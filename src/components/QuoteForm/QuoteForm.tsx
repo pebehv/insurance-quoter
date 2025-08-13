@@ -41,7 +41,7 @@ const QuoteForm: React.FC<QuoteFormProps> = () => {
         </h5>
       </div>
       <div>
-        <h2>
+        <h2 className='quoter-section-title'>
           Creado para ti y tu familia
         </h2>
         <h6>
@@ -51,15 +51,17 @@ const QuoteForm: React.FC<QuoteFormProps> = () => {
       <form onSubmit={handleSubmit} className="quote-form">
 
         <div className='quote-form__summary-box'>
-          <div className="input-group input-group-lg  quote-form__dni">
+          <div className="input-group input-group-md  quote-form__dni">
             <select className="form-select" aria-label="Default select example">
               <option selected>DNI</option>
             </select>
-            <input type="text" className="form-control quote-form__label"  placeholder="Nro. de documento" aria-label="nombre" aria-describedby="inputGroup-sizing-lg"/>
+            <input type="text" className="form-control quote-form__label"  
+            placeholder="Nro. de documento" aria-label="nombre" aria-describedby="inputGroup-sizing-md"/>
           </div>
 
-          <div className="input-group input-group-lg">
-            <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"/>
+          <div className="input-group input-group-md">
+            <input type="text" className="form-control " placeholder="Celular"
+            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-md"/>
           </div>
         </div>
         

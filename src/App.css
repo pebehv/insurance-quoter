@@ -1,11 +1,9 @@
 .container-main{
 
     width: 100%;
-    max-width: 1360px;
     height: 100vh; /* Ocupa toda la altura visible del navegador */
     transform: rotate(0deg);
     opacity: 1;
-    margin: 0 auto; /* Centra horizontalmente */
-    padding: 0 24px; /* Espaciado lateral para evitar que el contenido pegue al borde */
+    display: flex;
     box-sizing: border-box;
 }
