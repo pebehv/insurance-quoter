@@ -1,27 +1,25 @@
 import React, { useState } from 'react';
 import './QuoteForm.scss';
 
-// Definición de tipos para las props si las tuviera
 interface QuoteFormProps {
-  // Por ejemplo: onFormSubmit: (data: FormData) => void;
 }
 
 // Definición de tipos para el estado
 interface FormData {
   dni: string;
-  celular: string;
+  phone: string;
 }
 
 const QuoteForm: React.FC<QuoteFormProps> = () => {
   const [formData, setFormData] = useState<FormData>({
     dni: '',
-    celular: '',
+    phone: '',
   });
 
   // La función recibe un evento de formulario, que es de tipo React.FormEvent<HTMLFormElement>
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(formData);
+    console.log( 'formData',formData);
   };
 
   // La función para manejar el cambio de inputs
@@ -55,13 +53,13 @@ const QuoteForm: React.FC<QuoteFormProps> = () => {
             <select className="form-select" aria-label="Default select example">
               <option selected>DNI</option>
             </select>
-            <input type="text" className="form-control quote-form__label"  
-            placeholder="Nro. de documento" aria-label="nombre" aria-describedby="inputGroup-sizing-md"/>
+            <input type="text" className="form-control quote-form__label"  name="dni" value={formData.dni} onChange={handleInputChange}
+            placeholder="Nro. de documento" aria-label="nombre" aria-describedby="inputGroup-sizing-md" required />
           </div>
 
           <div className="input-group input-group-md">
-            <input type="text" className="form-control " placeholder="Celular"
-            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-md"/>
+            <input type="text" className="form-control " placeholder="Celular" name="phone"value={formData.phone} onChange={handleInputChange}
+            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-md" required />
           </div>
         </div>
         
