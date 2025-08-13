@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Prueba Técnica  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cotizador de pólizas  
 
-## Available Scripts
+## Pantallas del figma 
 
-In the project directory, you can run:
+Se creó dos pantallas del figma:
+1) La principal, donde ingresa los datos el cliente. Esta esta lista con su responsive
+2) Es la pantalla que muestra las opciones de pólizas una vez ingresados los datos . Esta es la parte del encabezado lista.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Ver Proyecto 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para el momento en que mando este link, no esta listo aun lo del link en Github Pages.
+Para la tarde- noche estaré creando el link, y lo agregaré aqui . 
 
-### `npm test`
+## Para ver el proyecto de forma local 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Descargar el proyecto e instalar  las dependencias . Y ejecutar `npm start`.
+Una vez cargado el ambiente local, tenemos estas dos rutas 
 
-### `npm run build`
+1) http://localhost:3000/
+2) http://localhost:3000/planes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Estructura  del código 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El proyecto está estructurado en varios componentes para facilitar la reutilización y el mantenimiento del código. Para el desarrollo, utilicé React con TypeScript y SCSS.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Creé un archivo SCSS dedicado a las variables de estilo, lo que permite centralizar y modificar fácilmente los estilos principales de la aplicación.
 
-### `npm run eject`
+La arquitectura modular con componentes asegura que el código sea más estructurado y escalable.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+El diseño responsive se implementó sin herramientas o frameworks externos, utilizando CSS y HTML puro para adaptarse a diferentes dispositivos.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Nota 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+He subido los avances actuales a la rama `develop`. Continuaré trabajando en las tareas restantes en una rama aparte, para no afectar la estabilidad del entregable.
