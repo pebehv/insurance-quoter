@@ -1,0 +1,15 @@
+
+@import '../../styles/variables';
+
+.optionquote-container{
+    padding: 10px 20px;
+    display: flex;
+}
+.circule-end{
+    border:  1px solid $color-blue ;
+    color: $color-blue;
+}
+
+.quote-return{
+    color: $color-blue;
+}

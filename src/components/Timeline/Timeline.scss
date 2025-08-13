@@ -1,0 +1,30 @@
+@import '../../styles/_variables';
+
+
+.timeline-container{
+    background-color: $background-color-timeline;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+
+}
+
+.timeline-span{
+    padding: 0px 5px;
+}
+.circule1{
+    background-color: $color-blue; // o el color del diseño
+    color: white;
+}
+
+.circule2{
+    
+  border: 1px solid gray;
+  color: gray;
+}
+
+
+
+.disable{
+    color: gray;
+}
