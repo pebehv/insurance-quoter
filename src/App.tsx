@@ -1,6 +1,6 @@
 //port logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter  as Router, Routes, Route } from "react-router-dom";
 // src/index.tsx o src/App.tsx
 import './styles/main.scss';
 import Home from './components/Home/Home';
@@ -19,3 +19,5 @@ const App = () => (
 );
 
 export default App;
+
+
