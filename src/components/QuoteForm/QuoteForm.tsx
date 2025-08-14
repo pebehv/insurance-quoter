@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './QuoteForm.scss';
-
+import familySmall from '../../assets/images/family-small.png'
 interface QuoteFormProps {
 }
 
@@ -33,19 +33,31 @@ const QuoteForm: React.FC<QuoteFormProps> = () => {
 
   return (
     <div className='quoter-section'>
-      <div className='h5'>
-        <h5>
-          Seguro Salud Flexible
-        </h5>
+      <div className='form-row'>
+        <div className='form-grid'>
+          <div className='h5'>
+            <h5>
+              Seguro Salud Flexible
+            </h5>
+          </div>
+          <div>
+            <h2 className='quoter-section-title'>
+              Creado para ti y tu familia
+            </h2>
+            <h6 className='quoter-desc'>
+              Tú eliges cuánto pagar. Ingresa tus datos, cotiza y recibe nuestra asesoría. 100% online.
+            </h6>
+          </div>
+        </div>
+        <div className='form-img-main'>
+          <img  className='form-quote-img' src={familySmall} alt="Responsive" />
+        </div>
+        
       </div>
-      <div>
-        <h2 className='quoter-section-title'>
-          Creado para ti y tu familia
-        </h2>
-        <h6>
-          Tú eliges cuánto pagar. Ingresa tus datos, cotiza y recibe nuestra asesoría. 100% online.
-        </h6>
-      </div>
+      <h6 className='quoter-desc-movil'>
+        <hr />
+        Tú eliges cuánto pagar. Ingresa tus datos, cotiza y recibe nuestra asesoría. 100% online.
+      </h6>
       <form onSubmit={handleSubmit} className="quote-form">
 
         <div className='quote-form__summary-box'>
@@ -74,7 +86,7 @@ const QuoteForm: React.FC<QuoteFormProps> = () => {
           <div className="form-check">
             <input className="form-check-input" type="checkbox" value="" id="checkChecked" checked />
             <label className="form-check-label" htmlFor="checkChecked">
-              Checked checkbox
+              Acepto lo Política Comunicaiones Comerciales
             </label>
           </div>
           <p className='p'>Aplican Términos y Condiciones.</p>

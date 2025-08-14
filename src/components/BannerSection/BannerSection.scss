@@ -74,9 +74,8 @@
 
 
  @media (max-width : 576px){
-  .quote-img{
-    width: 100px;
-    height: 150px;
+  .img-main{
+    display: none;
   }
   .img-main{
     width: 100%;
@@ -84,7 +83,13 @@
   }
   .quote-form__section{
     width: 100%;
-    padding-right: 0px;
-    padding-left: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .quote-section{
+    grid-template-columns: none;
+  }
+  .quote-form__section{
+    padding-top: 0;
   }
  }
