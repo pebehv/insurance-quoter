@@ -2,14 +2,59 @@
 @import '../../styles/variables';
 
 .optionquote-container{
-    padding: 10px 20px;
-    display: flex;
+    padding: 10px 15%;
+    
 }
 .circule-end{
     border:  1px solid $color-blue ;
     color: $color-blue;
 }
+.circule-card{
+    border:  1px solid #808080ab ;
+    width: 14px;
+    height: 14px;
+}
 
 .quote-return{
     color: $color-blue;
+}
+.option-quote-insurance{
+    padding: 1% 0;
+    text-align: center;
+}
+.content-card{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card_{
+
+    width: 200px;
+    padding: 1% 2%;
+    background: white;
+    height: 150px;
+    margin: 0px 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.option-img{
+    width: 40px;
+    filter: invert(1);
+}
+.option-card{
+    justify-content: center;
+    display: flex
+;
+}
+
+.option-p{
+    font-size: 8px;
+}
+
+.option-quote-p{
+    font-size: 12px;
+}
+.option-quote-h2{
+    font-weight: 600;
 }

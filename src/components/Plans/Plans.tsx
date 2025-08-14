@@ -5,11 +5,12 @@ import Timeline from '../Timeline/Timeline';
 import '../BannerSection/BannerSection.scss'
 import OptionQuote from '../OptionQuote/OptionQuote';
 const Plans = () => {
+  let name = 'Rocio';
   return (
     <div className='banner-container plan-main'>
         <Header/>
          <Timeline/>
-         <OptionQuote/>
+         <OptionQuote name={name} />
         
 
     </div>
