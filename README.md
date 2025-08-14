@@ -14,6 +14,9 @@ Se creó dos pantallas del figma:
 Para el momento en que mando este link, no esta listo aun lo del link en Github Pages.
 Para la tarde- noche estaré creando el link, y lo agregaré aqui . 
 
+- https://pebehv.github.io/insurance-quoter
+- https://pebehv.github.io/insurance-quoter/#/planes
+
 ## Para ver el proyecto de forma local 
 
 Descargar el proyecto e instalar  las dependencias . Y ejecutar `npm start`.
