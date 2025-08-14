@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/insurance-quoter/static/css/main.0aeed259.css",
-    "main.js": "/insurance-quoter/static/js/main.469ed14a.js",
+    "main.js": "/insurance-quoter/static/js/main.fc37b323.js",
     "static/js/453.606d2008.chunk.js": "/insurance-quoter/static/js/453.606d2008.chunk.js",
     "static/media/family.png": "/insurance-quoter/static/media/family.27c70a0f1badfa17438f.png",
     "static/media/family-small.png": "/insurance-quoter/static/media/family-small.125b53579900eacc877e.png",
     "static/media/icon1.svg": "/insurance-quoter/static/media/icon1.1201279dc7c52f9bc2b2d611fea273e6.svg",
     "index.html": "/insurance-quoter/index.html",
     "main.0aeed259.css.map": "/insurance-quoter/static/css/main.0aeed259.css.map",
-    "main.469ed14a.js.map": "/insurance-quoter/static/js/main.469ed14a.js.map",
+    "main.fc37b323.js.map": "/insurance-quoter/static/js/main.fc37b323.js.map",
     "453.606d2008.chunk.js.map": "/insurance-quoter/static/js/453.606d2008.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0aeed259.css",
-    "static/js/main.469ed14a.js"
+    "static/js/main.fc37b323.js"
   ]
 }
