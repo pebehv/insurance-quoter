@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'BR Sonoma', sans-serif;
+}
+body{
+
+  background-color: #F8F9FF;
+}
+.container-main{
+
+    background-color: #F8F9FF;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura visible del navegador */
+    transform: rotate(0deg);
+    opacity: 1;
+    display: flex;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circule{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.timeline-title{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal; /* 'Bold' no es válido aquí, ya está cubierto por font-weight */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 0px 10px;
+
 }

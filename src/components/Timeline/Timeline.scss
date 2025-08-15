@@ -1,0 +1,83 @@
+@import '../../styles/_variables';
+
+.timeline-desk{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 80px;
+  padding-top: 30px;
+}
+.timeline-container{
+    background-color: $background-color-timeline;
+
+
+}
+
+.timeline-bar{
+    padding: 0px 5px;
+}
+.circule1{
+    background-color: $color-blue; // o el color del diseño
+    color: white;
+}
+
+.circule2{
+    
+  border: 1px solid gray;
+  color: gray;
+}
+
+.disable{
+    color: gray;
+}
+.timeline-movil{
+    display: none;
+}
+
+
+@media (max-width : 576px) {
+  .timeline-desk{
+    display: none;
+  }
+  .timeline-movil{
+    display: flex;
+    width: 100%;
+  }
+  .header-container {
+    padding: 2px 10%;  
+  }
+  .texto-header{
+    display: none;
+  }
+  .timeline-title-movil{
+    font-size: 11px;
+    margin-bottom: 0;
+    width: 30%;
+  }
+
+  .timeline-container{
+    height: 30px;
+    justify-content:left;
+    padding: 5px 30px;
+    background-color: transparent;
+   // margin-top: 0;
+  }
+  .timeline-bar{
+    display: block;
+    width: 60%;
+    height: 7px;
+    margin-top: 8px;
+    background-color: #d7dbf5;
+    border-radius: 20px;
+    padding: 0px;
+  }
+
+  .timeline-bar-act{
+    width: 5%;
+    background: $color-blue;
+    height: 7px;
+    border-radius: 20px;
+
+  }
+  
+}
