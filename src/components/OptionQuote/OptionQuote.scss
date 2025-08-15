@@ -58,3 +58,57 @@
 .option-quote-h2{
     font-weight: 600;
 }
+
+.circule-flex{
+    display: flex;
+}
+
+.option-quote-h2-movil{
+    display: none;
+}
+@media (max-width : 576px) {
+
+    .circule-flex{
+        display: none;
+    }
+    .option-quote-h2{
+        white-space: nowrap;
+    }
+
+    .option-quote-h2{
+        display: none;
+    }
+    .option-quote-h2-movil{
+        display: block;
+        text-align: left;
+        font-weight: 600;
+    }
+    .optionquote-container {
+        //margin-top: -40px;
+        padding: 10px 7%;
+        margin-top: 30px;
+    }
+    .option-quote-insurance{
+        text-align: left;
+    }
+    .option-card {
+        display: block;
+    }
+    .card_{
+
+        width: 100%;
+        margin: 20px 0;
+        padding: 3% 5%;
+        p{
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+    .card-flex{
+        display: flex;
+        h5{
+            margin-top: auto;
+        }
+    }
+    
+}

@@ -14,8 +14,10 @@ const Timeline = () => {
       <div className='timeline-movil'>
 
         <div className=' circule circule-end'> &lt;</div>
-        <h3 className='timeline-title'>PASO 1 DE 2</h3>
-        <span className='timeline-span'></span>
+        <h3 className='timeline-title timeline-title-movil '>PASO 1 DE 2</h3>
+        <div className='timeline-bar'>
+          <div className='timeline-bar-act'></div>
+        </div>
        
       </div>
     </div>
